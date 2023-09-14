@@ -1,1 +1,125 @@
 
+/* Reset some default styles for consistency */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Styling for headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Styling for paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Styling for lists */
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Styling for buttons */
+a[href="#download"] {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a[href="#download"]:hover {
+    background-color: #555;
+}
+
+/* Styling for the video section */
+.video {
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px 0;
+    }
+    nav ul li {
+        margin-right: 10px;
+    }
+    .content {
+        padding: 10px;
+    }
+    footer {
+        padding: 5px;
+    }
+}
